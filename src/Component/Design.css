@@ -1,0 +1,114 @@
+.onbar{
+            color:white;
+            display: flex;
+            justify-content: space-evenly;
+            font-Size: 0.9rem;
+            padding: 4px;
+            background-Color:black;
+            height: 30px;
+            font-Weight: bold;
+            width: 100%;
+}
+.red{
+            display: flex;
+            justify-content: space-around;
+           padding-bottom: 50px;
+            
+}
+.fw-lighter{
+    padding-top:45px;margin-bottom:0px;
+}
+
+.hero-tag{
+    padding-left: 50px;
+     padding-right: 50px ;
+     width:auto;
+}
+.yellow{
+    padding-left: 100px;
+}
+.brands{
+    padding-left: 50px;
+    padding-left: 5px;
+    margin: 50px;
+    padding-top: 10px ;
+}
+.style{
+    padding-left:100px ;
+}
+.worth{
+          background-color: black;
+          display: flex;
+          justify-content: space-around;
+          padding: 50px;
+}
+.hero-cycle1{
+     display: flex;
+    color: white,
+}
+#root{
+    
+    overflow-x: hidden;
+}
+
+
+@media  (max-width: 800px){
+.onbar{
+    height: 50px;
+    width: 100%;
+    background-Color:black;
+}
+
+
+    .fw-lighter{
+    padding-top:15px;
+    margin-bottom:5px;
+}
+     .hero-tag{
+    padding-left: 25px;
+     padding-right: 5px ;
+     }
+     .brands{
+    padding-left: 5%;
+    
+}
+
+
+.red{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    
+    
+ 
+    
+}
+.style{
+    padding-left:20px ;
+}
+.footer{
+    display:flex;
+    
+    padding: 5px;
+
+}
+.worth{
+          background-color: black;
+          display: block;
+
+          padding-left: 15px;
+}
+
+.moj{
+    padding-top: 15px;
+}
+.hero-cycle1{
+    display:block
+}
+.yellow{
+    padding-top:15px;
+    padding-left: 15px;
+}
+
+
+}
